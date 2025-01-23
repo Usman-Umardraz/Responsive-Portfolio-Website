@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usman's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="profile-pic">
+            <img src="img/my-pic.jpg" alt="Usman's Picture" onclick="showProfilePic()">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="main-content">
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <h2>Hi, I'm Usman</h2>
+                <p>Aspiring Software Developer | Computer Science Student</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I am a dedicated and passionate Computer Science student at GC University, Chiniot, currently in my
+                    5th semester. With a keen interest in software development and technology, I have spent considerable
+                    time developing my skills in programming, problem-solving, and project management. I am particularly
+                    interested in software development, web development, and emerging technologies.
+                </p>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="projects__container">
+                    <!-- Project 1: FoodOrderPro -->
+                    <div class="project">
+                        <img src="img/foodorderpro.png" alt="FoodOrderPro Project">
+                        <h3>FoodOrderPro</h3>
+                        <p>A food ordering system designed for efficient and seamless admin login and management.
+                            Collaborated with a team to create a visually appealing and professional design.</p>
+                    </div>
+                    
+                    <!-- Project 2: Portfolio Project -->
+                    <div class="project">
+                        <img src="img/porfolio.png" alt="Portfolio Project">
+                        <h3>Portfolio Project</h3>
+                        <p>A personal portfolio website showcasing my skills, projects, and achievements as an aspiring
+                            software developer. This website includes sections such as "About Me", "Projects", "Skills",
+                            and "Contact".</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+  <!--==================== SKILLS ====================-->
+  <section id="skills" class="skills-section">
+    <h2>Skills</h2>
+    <div class="skills__container">
+        <!-- Skills Group 1: Software Developer -->
+        <div class="skills__content">
+            <h3 class="skills__title"><i class="ri-braces-line"></i> Software   Developer        </h3>
+            <div class="skills__info">
+                <!-- Skill 3: C++ -->
+                <div class="skills__data">
+                    <div class="skills__blob">
+                        <img src="img/icons8-c++-48.png" alt="C++">
+                    </div>
+                    <h3 class="skills__name">C++</h3>
+                    <span class="skills__subtitle">Intermediate</span>
+                </div>
+                <!-- Skill 1: Java -->
+                <div class="skills__data">
+                    <div class="skills__blob">
+                        <img src="img/icons8-java-94.png" alt="Java">
+                    </div>
+                    <h3 class="skills__name">Java</h3>
+                    <span class="skills__subtitle">Advanced</span>
+                </div>
+
+
+                <!-- Skill 2: Android -->
+                <div class="skills__data">
+                    <div class="skills__blob">
+                        <img src="img/icons8-android-studio-48.png" alt="Android">
+                    </div>
+                    <h3 class="skills__name">Android</h3>
+                    <span class="skills__subtitle">Intermediate</span>
+                </div>
+               
+                
+                <!-- Skill 4: Php -->
+
+                <div class="skills__data">
+                    <div class="skills__blob">
+                        <img src="img/icons8-php-48.png" alt="PHP">
+                    </div>
+                    <h3 class="skills__name">PHP</h3>
+                    <span class="skills__subtitle">Intermediate</span>
+                </div>
+                <!-- Skill 8: HTML -->
+                <div class="skills__data">
+                    <div class="skills__blob">
+                        <img src="img/icons8-html-5-48.png" alt="HTML">
+                    </div>
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__subtitle">Advanced</span>
+                </div>
+                <!-- Skill 9: CSS -->
+                <div class="skills__data">
+                    <div class="skills__blob">
+                        <img src="img/icons8-css-100.png" alt="CSS">
+                    </div>
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__subtitle">Advanced</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills Group 2: Computer Fundamentals -->
+        <div class="skills__content">
+            <h3 class="skills__title"><i class="ri-braces-line"></i> Computer Fundamentals</h3>
+            <div class="skills__info">
+                <!-- Skill 1: DSA -->
+                <div class="skills__data">
+                    <div class="skills__blob">
+                        <img src="img/icons8-binary-code-100.png" alt="DSA">
+                    </div>
+                    <h3 class="skills__name">DSA</h3>
+                    <span class="skills__subtitle">Intermediate</span>
+                </div>
+                <!-- Skill 2: OOPS -->
+                <div class="skills__data">
+                    <div class="skills__blob">
+                        <img src="img/icons8-plugin-100.png" alt="OOPS">
+                    </div>
+                    <h3 class="skills__name">OOPS</h3>
+                    <span class="skills__subtitle">Advanced</span>
+                </div>
+                <!-- Skill 3: DBMS -->
+                <div class="skills__data">
+                    <div class="skills__blob">
+                        <img src="img/icons8-database-100.png" alt="DBMS">
+                    </div>
+                    <h3 class="skills__name">DBMS</h3>
+                    <span class="skills__subtitle">Intermediate</span>
+                </div>
+                <!-- Skill 4: OS -->
+                <div class="skills__data">
+                    <div class="skills__blob">
+                        <img src="img/icons8-console-100.png" alt="OS">
+                    </div>
+                    <h3 class="skills__name">OS</h3>
+                    <span class="skills__subtitle">Intermediate</span>
+                </div>
+                <!-- Skill 5: CN -->
+                <div class="skills__data">
+                    <div class="skills__blob">
+                        <img src="img/icons8-multicast-100.png" alt="CN">
+                    </div>
+                    <h3 class="skills__name">CN</h3>
+                    <span class="skills__subtitle">Advanced</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p>Email: UsmanUmardraz@gmail.com</p>
+                <p>LinkedIn: <a href="#">linkedin.com/in/usman</a></p>
+                <p>WhatsApp: <a href="https://wa.me/923001234567" target="_blank">+92 3074825440</a></p>
+                <p>GitHub: <a href="https://github.com/usman" target="_blank">github.com/usman-umardraz</a></p>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2025 Usman | All Rights Reserved</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Full Screen Profile Image -->
+    <div id="fullScreenOverlay" class="overlay" onclick="closeFullScreen()">
+        <img src="img/my-pic.jpg" alt="Full Profile Pic" id="fullScreenPic">
+    </div>
+
+    <script>
+        function showProfilePic() {
+            document.getElementById("fullScreenOverlay").style.display = "flex";
+            var profilePic = document.querySelector(".profile-pic img").src;
+            document.getElementById("fullScreenPic").src = profilePic;
+        }
+
+        function closeFullScreen() {
+            document.getElementById("fullScreenOverlay").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
